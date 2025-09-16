@@ -40,7 +40,7 @@ namespace TubeResizer
 
         private static Encoding DetectEncoding(string path)
         {
-            // Простая эвристика: если есть BOM — уважаем его; иначе читаем как UTF8 без BOM.
+            // Простая эвристика: если есть BOM — ok; иначе читаем как UTF8 без BOM.
             using (var fs = File.OpenRead(path))
             {
                 if (fs.Length >= 3)
