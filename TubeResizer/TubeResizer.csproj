@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>site_enhancer.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Krypton.Toolkit">
       <HintPath>..\..\Toucan_NF_4.8\Toucan_NF_4.8\bin\Debug\Krypton.Toolkit.dll</HintPath>
@@ -117,6 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="LICENSE.txt" />
+    <Content Include="site_enhancer.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
